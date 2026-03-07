@@ -34,10 +34,11 @@ class Note extends FlxSprite
 	public static var GREEN_NOTE:Int = 2;
 	public static var BLUE_NOTE:Int = 1;
 	public static var RED_NOTE:Int = 3;
+	public var gfNote:Bool = false;
 
 	public var rating:String = "shit";
 
-	public function new(strumTime:Float, noteData:Int, ?prevNote:Note, ?sustainNote:Bool = false, ?skin:String, ?inCharter:Bool = false, ?noteType:Int = 0)
+public function new(strumTime:Float, noteData:Int, ?prevNote:Note, ?sustainNote:Bool = false, ?skin:String, ?inCharter:Bool = false, ?noteType:Int = 0, ?gfNote:Bool = false)
 	{
 		super();
 		
@@ -68,6 +69,7 @@ class Note extends FlxSprite
 			this.strumTime = 0;
 
 		this.noteData = noteData;
+		this.gfNote = gfNote;
 
 		var daStage:String = PlayState.curStage;
 
@@ -75,7 +77,7 @@ class Note extends FlxSprite
 		var noteTypeCheck:String = 'normal';
 
 		if (PlayState.SONG.noteStyle == null) {
-			switch(PlayState.storyWeek) {case 6: noteTypeCheck = 'pixel';}
+			switch(PlayState.storyWeek) {case 99999999: noteTypeCheck = 'pixel';}
 		} else {noteTypeCheck = PlayState.SONG.noteStyle;}
 
 		switch (noteTypeCheck)

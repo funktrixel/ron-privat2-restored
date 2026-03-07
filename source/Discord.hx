@@ -8,6 +8,7 @@ using StringTools;
 
 class DiscordClient
 {
+	public static var currentIcon:String = "normal";
 	public function new()
 	{
 		trace("Discord Client starting...");
@@ -22,7 +23,7 @@ class DiscordClient
 		while (true)
 		{
 			DiscordRpc.process();
-			sleep(2);
+			sleep(16);
 			//trace("Discord Client Update");
 		}
 
@@ -75,7 +76,7 @@ class DiscordClient
 		DiscordRpc.presence({
 			details: details,
 			state: state,
-			largeImageKey: 'normal',
+			largeImageKey: currentIcon,
 			largeImageText: "fridaynightfunkin",
 			smallImageKey : smallImageKey,
 			// Obtained times are in milliseconds so they are divided so Discord can use it

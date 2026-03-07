@@ -1,3 +1,3 @@
-Certified-Champion:shuttleman:1
-Rong-Aisle:dvdron:1
-Weed:weedron:1
+Certified-Champion:bfshuttle-man-playable:7
+Rong-Aisle:rondvd:7
+Weed:weedron:7

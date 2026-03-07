@@ -46,7 +46,7 @@ class BSidePlayState extends MusicBeatState
 
 	override function create()
 	{
-		var initSonglist = CoolUtil.coolTextFile(Paths.txt('freeplaySonglistb'));
+		var initSonglist = CoolUtil.coolTextFile(Paths.txt('z_lists/fpBsidelist'));
 
 		for (i in 0...initSonglist.length)
 		{
@@ -64,7 +64,8 @@ class BSidePlayState extends MusicBeatState
 
 		 #if windows
 		 // Updating Discord Rich Presence
-		 DiscordClient.changePresence("In the Freeplay Menu", null);
+		DiscordClient.currentIcon = "normal";
+		 DiscordClient.changePresence("In the Freeplay Menu (Bsides)", null);
 		 #end
 
 		var isDebug:Bool = false;

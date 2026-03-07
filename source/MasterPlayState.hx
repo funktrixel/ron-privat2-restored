@@ -49,16 +49,17 @@ class MasterPlayState extends MusicBeatState
 			songs.push(new FreeplayState.SongMetadata(data[0], Std.parseInt(data[2]), data[1]));
 		}
 
-		/* 
 			if (FlxG.sound.music != null)
 			{
 				if (!FlxG.sound.music.playing)
 					FlxG.sound.playMusic(Paths.music('freakyMenu'));
 			}
-		 */
+			if (FlxG.sound.music == null)
+				FlxG.sound.playMusic(Paths.music('freakyMenu'));
 
 		 #if windows
 		 // Updating Discord Rich Presence
+		DiscordClient.currentIcon = "normal";
 		 DiscordClient.changePresence("In the Freeplay Menu", null);
 		 #end
 
@@ -226,9 +227,21 @@ class MasterPlayState extends MusicBeatState
 				case 0:
 					FlxG.switchState(new NormalPlayState());
 				case 1:
-					FlxG.switchState(new BSidePlayState());
+					FlxG.switchState(new CookPlayState());
 				case 2:
+					FlxG.switchState(new ShuttlePlayState());
+				case 3:
+					FlxG.switchState(new BijuuPlayState());
+				case 4:
+					FlxG.switchState(new DavePlayState());
+				case 5:
+					FlxG.switchState(new DoynhePlayState());
+				case 6:
 					FlxG.switchState(new ExtrasPlayState());
+				case 7:
+					FlxG.switchState(new InfernalPlayState());
+				case 8:
+					FlxG.switchState(new OldPlayState());
 			}
 		}
 	}
@@ -311,6 +324,8 @@ class MasterPlayState extends MusicBeatState
 				clr = FlxColor.MAGENTA;
 			case 7:
 				clr = FlxColor.BLACK;
+			case 8:
+				clr = FlxColor.BROWN;
 		}
 		
 		if(clr != intendedColor) {

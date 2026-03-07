@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="roncook.png"><SubTexture name="roncook idle0000" x="0" y="0" width="409" height="418" frameX="0" frameY="0" frameWidth="409" frameHeight="418" />
+<SubTexture name="roncook idle0001" x="409" y="0" width="409" height="418" frameX="0" frameY="0" frameWidth="409" frameHeight="418" />
+<SubTexture name="roncook idle0002" x="818" y="0" width="409" height="418" frameX="0" frameY="0" frameWidth="409" frameHeight="418" />
+<SubTexture name="roncook idle0003" x="0" y="418" width="409" height="418" frameX="0" frameY="0" frameWidth="409" frameHeight="418" />
+<SubTexture name="roncook left0000" x="409" y="418" width="355" height="412" frameX="0" frameY="0" frameWidth="355" frameHeight="412" />
+<SubTexture name="roncook left0001" x="764" y="418" width="355" height="412" frameX="0" frameY="0" frameWidth="355" frameHeight="412" />
+<SubTexture name="roncook right0000" x="0" y="836" width="377" height="425" frameX="0" frameY="0" frameWidth="377" frameHeight="425" />
+<SubTexture name="roncook right0001" x="377" y="836" width="377" height="425" frameX="0" frameY="0" frameWidth="377" frameHeight="425" />
+<SubTexture name="roncook up0000" x="754" y="836" width="340" height="444" frameX="0" frameY="0" frameWidth="340" frameHeight="444" />
+<SubTexture name="roncook up0001" x="0" y="1280" width="340" height="444" frameX="0" frameY="0" frameWidth="340" frameHeight="444" />
+<SubTexture name="roncook down0000" x="340" y="1280" width="419" height="318" frameX="0" frameY="0" frameWidth="419" frameHeight="318" />
+<SubTexture name="roncook down0001" x="759" y="1280" width="419" height="318" frameX="0" frameY="0" frameWidth="419" frameHeight="318" />
+</TextureAtlas>

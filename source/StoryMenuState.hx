@@ -27,10 +27,10 @@ class StoryMenuState extends MusicBeatState
 		['Tutorial'],
 		['Ron', 'Wasted', 'Ayo', 'Bloodshed'],
 		['Trojan Virus', 'Recycle-Bin', 'File-Manipulation', 'Factory-Reset'],
-		['Gron'],
-		['Raw-Meaty-Meats', 'Assassination', 'Steak'],
+		['Raw-Meaty-Meats', 'Steak', 'Assassination'],
+		['Holy-Shit-Dave-Fnf', 'Slammed', 'Meme-Machine', 'Frosting-Over'],
 		['Bijuu', 'Goncy', 'Scrub-Of-The-Day'],
-		['Pretty-Wacky','He-Hates-Me', 'Atypical']
+		['Pretty-Wacky','He-Hates-Me', 'Typical-Dessecration', 'Defecation']
 	];
 
 	var curDifficulty:Int = 1;
@@ -41,8 +41,8 @@ class StoryMenuState extends MusicBeatState
 		['', 'bf', 'gf'],
 		['ron', 'bf', 'gf'],
 		['ron2', 'bf', 'gf'],
-		['', 'bf', 'gf'],
-		['cookron', 'bf', ''],
+		['cookron', 'bf', 'gf'],
+		['bambi', 'ronMain', ''],
 		['', 'bf', 'gf'],
 		['douyhe', 'bf', 'gf']
 	];
@@ -51,8 +51,8 @@ class StoryMenuState extends MusicBeatState
 		"Tutorial but less cooler B(",
 		"VS COOL GUY B)",
 		"O shit ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron ron",
-		"",
 		"THE MEAT IS RAW BOYFRIEND, THE MEAT IS RAW *SLAP*",
+		"bm mabmabi hory sheet bambir IRL!!!!!!!!!!!!!!!!!!!!!!!!!!!! *vine tuhd*",
 		"Folder turned Weeaboo",
 		"what"
 	];
@@ -84,13 +84,14 @@ class StoryMenuState extends MusicBeatState
 	{
 		#if windows
 		// Updating Discord Rich Presence
+		DiscordClient.currentIcon = "normal";
 		DiscordClient.changePresence("In the Story Mode Menu", null);
 		#end
 		
 		if (FlxG.save.data.douyhelikescheese)
-			weekUnlocked = [true, true, true, true, true, true];
+			weekUnlocked = [true, true, true, true, true, true, true];
 		else
-			weekUnlocked = [true, true, true, true, true, false];
+			weekUnlocked = [true, true, true, true, true, true, false];
 
 		transIn = FlxTransitionableState.defaultTransIn;
 		transOut = FlxTransitionableState.defaultTransOut;
@@ -122,7 +123,7 @@ class StoryMenuState extends MusicBeatState
 		var ui_tex = Paths.getSparrowAtlas('campaign_menu_UI_assets');
 		var yellowBG:FlxSprite = new FlxSprite(0, 72).makeGraphic(FlxG.width, 400, 0xFF000000);
 		bg = new FlxSprite(0, 56).loadGraphic(Paths.image('storyWeek1'));
-		bg2 = new FlxSprite(-4, 64);
+		bg2 = new FlxSprite(0, 56);
 		bg2.scale.set(2, 2);
 		bg2.frames = Paths.getSparrowAtlas('storyWeek2');
 		bg2.antialiasing = true;
@@ -328,9 +329,9 @@ class StoryMenuState extends MusicBeatState
 					FlxG.save.data.douyhelikescheese = !FlxG.save.data.douyhelikescheese;
 					FlxG.save.flush();
 					if (FlxG.save.data.douyhelikescheese)
-						weekUnlocked = [true, true, true, true, true, true];
+						weekUnlocked = [true, true, true, true, true, true, true];
 					else
-						weekUnlocked = [true, true, true, true, true, false];
+						weekUnlocked = [true, true, true, true, true, true, false];
 					
 					secretPng.alpha = 1;
 					FlxTween.tween(secretPng, {alpha: 0}, 1);
@@ -434,42 +435,56 @@ class StoryMenuState extends MusicBeatState
 
 	function selectWeek()
 	{
+		trace('selectWeek start, curWeek=' + curWeek);
 		if (weekUnlocked[curWeek])
 		{
+			trace('week is unlocked');
 			if (stopspamming == false)
 			{
+				trace('playing confirm sound, flashing, bfConfirm');
 				FlxG.sound.play(Paths.sound('confirmMenu'));
 
 				grpWeekText.members[curWeek].startFlashing();
-				grpWeekCharacters.members[1].animation.play('bfConfirm');
+				if (grpWeekCharacters.members[1].curCharacter == "bf")
+				{
+					grpWeekCharacters.members[1].animation.play('bfConfirm');
+				}
 				stopspamming = true;
 			}
-
+			trace('setting playlist');
 			PlayState.storyPlaylist = weekData[curWeek];
+			trace('playlist contents for curWeek ' + curWeek + ': ' + PlayState.storyPlaylist);
+
 			PlayState.isStoryMode = true;
 			selectedWeek = true;
-
+			trace('setting difficulty');
 
 			PlayState.storyDifficulty = curDifficulty;
-			if ((curDifficulty == 3) && (curWeek == 1))
+			if ((curDifficulty == 3) && (curWeek == 1)) {
+				trace('doing special ron insane playlist override');
 				PlayState.storyPlaylist = ['Ron', 'Wasted', 'Ayo', 'Bleeding'];
-
+			}
+			trace('songFormat');
 			// adjusting the song name to be compatible
 			var songFormat = StringTools.replace(PlayState.storyPlaylist[0], " ", "-");
 			switch (songFormat) {
 				case 'Dad-Battle': songFormat = 'Dadbattle';
 				case 'Philly-Nice': songFormat = 'Philly';
 			}
-
+			trace('poop = Highscore.formatSong');
 			var poop:String = Highscore.formatSong(songFormat, curDifficulty);
+			trace('resetting stats');
 			PlayState.sicks = 0;
 			PlayState.bads = 0;
 			PlayState.shits = 0;
 			PlayState.goods = 0;
 			PlayState.campaignMisses = 0;
+			trace('Song.loadFromJson: ' + poop + ', ' + PlayState.storyPlaylist[0]);
 			PlayState.SONG = Song.loadFromJson(poop, PlayState.storyPlaylist[0]);
+			trace('set storyWeek');
 			PlayState.storyWeek = curWeek;
 			PlayState.campaignScore = 0;
+			trace('about to switch state (curWeek=' + curWeek + ')');
 			switch (curWeek)
 			{
 				case 1:
@@ -482,7 +497,7 @@ class StoryMenuState extends MusicBeatState
 					{
 						video.playMP4(Paths.video('trojanvirus'), new PlayState(), false, false, false);
 					});
-				case 4:
+				case 3:
 					new FlxTimer().start(1, function(tmr:FlxTimer)
 					{
 						video.playMP4(Paths.video('cookron'), new PlayState(), false, false, false);
@@ -499,14 +514,28 @@ class StoryMenuState extends MusicBeatState
 	function changeDifficulty(change:Int = 0):Void
 	{
 		curDifficulty += change;
-
-		if (curDifficulty < 0)
+		if (curWeek == 3)
+		{
 			curDifficulty = 2;
-		if (curDifficulty > 3)
-			curDifficulty = 0;
-
+		}
+		else
+		{
+			if (curWeek == 0 || curWeek == 1)
+			{
+				if (curDifficulty < 0)
+					curDifficulty = 3;
+				if (curDifficulty > 3)
+					curDifficulty = 0;
+			}
+			else
+			{
+				if (curDifficulty < 0)
+					curDifficulty = 2;
+				if (curDifficulty > 2)
+					curDifficulty = 0;
+			}
+		}
 		sprDifficulty.offset.x = 0;
-
 		switch (curDifficulty)
 		{
 			case 0:
@@ -522,13 +551,10 @@ class StoryMenuState extends MusicBeatState
 				sprDifficulty.animation.play('insane');
 				sprDifficulty.offset.x = 20;
 		}
-
 		sprDifficulty.alpha = 0;
-
 		// USING THESE WEIRD VALUES SO THAT IT DOESNT FLOAT UP
 		sprDifficulty.y = leftArrow.y - 15;
 		intendedScore = Highscore.getWeekScore(curWeek, curDifficulty);
-
 		#if !switch
 		intendedScore = Highscore.getWeekScore(curWeek, curDifficulty);
 		#end
@@ -542,7 +568,6 @@ class StoryMenuState extends MusicBeatState
 	function changeWeek(change:Int = 0):Void
 	{
 		curWeek += change;
-
 		if (curWeek >= weekData.length)
 			curWeek = 0;
 		if (curWeek < 0)
@@ -553,15 +578,25 @@ class StoryMenuState extends MusicBeatState
 			if (change > 0)
 				curWeek = 0;
 			else
-				curWeek = 2;
+				curWeek = 5;
 		}
-			
+		if (curWeek == 3 && curDifficulty != 2)
+		{
+			changeDifficulty(2);
+		}
+		if (curWeek == 0 && curDifficulty != 2)
+		{
+			changeDifficulty(2);
+		}
+		if (curWeek == 2 && curDifficulty == 3)
+		{
+			changeDifficulty(2);
+		}
 		// nvm
 		if (curWeek == 2)
-			bg2.alpha = 0;
+			bg2.alpha = 1;
 		else
 			bg2.alpha = 0;
-
 		var bullShit:Int = 0;
 
 		for (item in grpWeekText.members)
@@ -577,7 +612,6 @@ class StoryMenuState extends MusicBeatState
 			}
 			bullShit++;
 		}
-
 		FlxG.sound.play(Paths.sound('scrollMenu'));
 		updateText();
 	}
@@ -587,7 +621,6 @@ class StoryMenuState extends MusicBeatState
 		grpWeekCharacters.members[0].setCharacter(weekCharacters[curWeek][0]);
 		grpWeekCharacters.members[1].setCharacter(weekCharacters[curWeek][1]);
 		grpWeekCharacters.members[2].setCharacter(weekCharacters[curWeek][2]);
-
 		txtTracklist.text = "Tracks\n";
 		var stringThing:Array<String> = weekData[curWeek];
 		if ((curDifficulty == 3) && (curWeek == 1))
@@ -597,12 +630,9 @@ class StoryMenuState extends MusicBeatState
 			txtTracklist.text += "\n" + i;
 
 		txtTracklist.text = txtTracklist.text.toUpperCase();
-
 		txtTracklist.screenCenter(X);
 		txtTracklist.x -= FlxG.width * 0.35;
-
 		txtTracklist.text += "\n";
-
 		#if !switch
 		intendedScore = Highscore.getWeekScore(curWeek, curDifficulty);
 		#end

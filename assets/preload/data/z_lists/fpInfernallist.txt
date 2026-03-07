@@ -1,5 +1,4 @@
-bloodbath:demonron:666
-bleeding:hellron:1
-omnipresent:hellron:1
-anti-piracy:hellron:1
-BLOODSHED-TWO:hellron:1
+bloodbath:demonron-new:666
+omnipresent:hellron:9
+homicidal-lunacy:hellron:9
+BLOODSHED-TWO:hellron:9

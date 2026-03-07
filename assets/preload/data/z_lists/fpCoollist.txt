@@ -1,0 +1,5 @@
+Tutorial:gf:0
+Ron:ron:1
+Wasted:ron-angry:1
+Ayo:ron-mad:1
+Bleeding:hellron:1

@@ -1,9 +1,9 @@
 {
 	"song": {
 		"speed": 2.5,
-		"stage": "stage",
-		"player1": "bf",
-		"player2": "dad",
+		"stage": "bambiFarm",
+		"player1": "ron",
+		"player2": "bambi",
 		"player3": null,
 		"events": [],
 		"notes": [
@@ -1937,7 +1937,6 @@
 		],
 		"splashSkin": "noteSplashes",
 		"validScore": false,
-		"gfVersion": "gf",
 		"bpm": 155,
 		"arrowSkin": "",
 		"needsVoices": true,

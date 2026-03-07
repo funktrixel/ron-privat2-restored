@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="roncookassassinate.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="roncook down0000" x="5" y="5" width="724" height="544"/>
+	<SubTexture name="roncook down0001" x="734" y="5" width="724" height="544"/>
+	<SubTexture name="roncook idle0000" x="1463" y="5" width="724" height="544"/>
+	<SubTexture name="roncook idle0001" x="2192" y="5" width="724" height="544"/>
+	<SubTexture name="roncook idle0002" x="2921" y="5" width="724" height="544"/>
+	<SubTexture name="roncook idle0003" x="5" y="554" width="724" height="544"/>
+	<SubTexture name="roncook left0000" x="734" y="554" width="724" height="544"/>
+	<SubTexture name="roncook left0001" x="1463" y="554" width="724" height="544"/>
+	<SubTexture name="roncook right0000" x="2192" y="554" width="724" height="544"/>
+	<SubTexture name="roncook right0001" x="2921" y="554" width="724" height="544"/>
+	<SubTexture name="roncook up0000" x="5" y="1103" width="724" height="544"/>
+	<SubTexture name="roncook up0001" x="734" y="1103" width="724" height="544"/>
+</TextureAtlas>

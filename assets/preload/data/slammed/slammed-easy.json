@@ -1,7 +1,7 @@
 {
 	"song": {
-		"player1": "bf",
-		"player2": "dad",
+		"player1": "ron",
+		"player2": "bambi",
 		"events": [],
 		"notes": [
 			{
@@ -1567,11 +1567,10 @@
 				"mustHitSection": true
 			}
 		],
-		"gfVersion": "gf",
 		"player3": null,
 		"splashSkin": "noteSplashes",
 		"song": "slammed",
-		"stage": "stage",
+		"stage": "bambiFarm",
 		"validScore": true,
 		"arrowSkin": "",
 		"needsVoices": true,

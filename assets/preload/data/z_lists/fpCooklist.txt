@@ -1,3 +1,3 @@
-Raw:ron:4
-Uncooked-Meat:ron:4
-Assassinate:ron:4
+Raw-Meaty-Meats:cookron:3
+Steak:cookron:3
+Assassination:cookron:3

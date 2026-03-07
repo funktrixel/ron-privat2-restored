@@ -1,8 +1,9 @@
 Main:ron:1
-Cook:cookron:1
-Shuttle Man:shuttleman:1
-Bijuu:bijuuron:1
-Dave:dave:1
-Doynhe:douyhe:1
-Extras:gron:1
-Infernal:demonron:1
+Cook:cookron:3
+Shuttle Man:bfshuttle-man-playable:7
+Bijuu:bijuuron:5
+Dave:dave:4
+Doynhe:douyhe:6
+Extras:gron:8
+Infernal:demonron:9
+Old:oldron:10

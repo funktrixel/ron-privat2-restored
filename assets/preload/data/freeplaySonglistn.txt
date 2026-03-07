@@ -7,3 +7,8 @@ Trojan-Virus:ron-usb:2
 File-Manipulation:ron-usb:2
 Atelophobia:ateloron:2
 Factory-Reset:factorytankman:2
+Bloodshed-old:demonron:1
+Bloodshed-oldest:demonron-old:1
+Trojan-Virus-older:ron-usb:2
+Factory-Reset-older:factorytankman:2
+Factory-Reset-oldest:factorytankman:2

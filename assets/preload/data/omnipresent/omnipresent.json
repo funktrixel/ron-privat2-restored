@@ -1,6 +1,6 @@
 {
 	"song": {
-		"player1": "bf",
+		"player1": "bf-run",
 		"notes": [
 			{
 				"sectionNotes": [],
@@ -32504,31 +32504,31 @@
 					],
 					[
 						708198.65771812,
-						6,
+						2,
 						0,
 						"GF Sing"
 					],
 					[
 						708498.65771812,
-						5,
+						1,
 						0,
 						"GF Sing"
 					],
 					[
-						708798.65771812,
-						4,
+						708795.53271812,
+						0,
 						0,
 						"GF Sing"
 					],
 					[
 						708948.65771812,
-						6,
+						2,
 						0,
 						"GF Sing"
 					],
 					[
 						709173.65771812,
-						7,
+						3,
 						0,
 						"GF Sing"
 					]
@@ -32554,14 +32554,14 @@
 						525
 					],
 					[
-						709698.65771812,
-						4,
+						709398.65771812,
+						1,
 						0,
 						"GF Sing"
 					],
 					[
-						709398.65771812,
-						5,
+						709698.65771812,
+						0,
 						0,
 						"GF Sing"
 					]
@@ -34425,6 +34425,11 @@
 						763248.65771812,
 						4,
 						0
+					],
+					[
+						763323.65771812,
+						6,
+						225
 					]
 				],
 				"typeOfSection": 0,
@@ -37101,13 +37106,14 @@
 					],
 					[
 						842598.65771812,
-						4,
+						7,
 						1125
 					],
 					[
 						842598.65771812,
-						7,
-						1125
+						4,
+						1125,
+						"GF Sing"
 					]
 				],
 				"typeOfSection": 0,
@@ -37819,6 +37825,106 @@
 				"bpm": 149
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"altAnim": false,
+				"gfSection": false,
+				"bpm": 149,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"lengthInSteps": 16,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 149
+			},
+			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"altAnim": false,
+				"gfSection": false,
+				"bpm": 149,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"altAnim": false,
+				"gfSection": false,
+				"bpm": 149,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"lengthInSteps": 16,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 149
+			},
+			{
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"lengthInSteps": 16,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 149
+			},
+			{
+				"gfSection": false,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 149,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"gfSection": false,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 149,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"gfSection": false,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 149,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"gfSection": false,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 149,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
 				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
@@ -37829,39 +37935,9 @@
 				"mustHitSection": true
 			}
 		],
-		"player2": "hellron",
-		"gfVersion": "gf",
+		"player2": "devilron-old",
+		"gfVersion": "gf-in",
 		"events": [
-			[
-				104685.402684564,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				104689.597315436,
-				[
-					[
-						"Change Character",
-						"bf",
-						"bf"
-					]
-				]
-			],
-			[
-				104693.791946309,
-				[
-					[
-						"TTStageShow",
-						"",
-						""
-					]
-				]
-			],
 			[
 				104697.986577181,
 				[
@@ -37873,82 +37949,12 @@
 				]
 			],
 			[
-				206166.107382551,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				206166.107382551,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				206170.302013423,
+				104697.986577181,
 				[
 					[
 						"Change Character",
-						"bf",
-						"bf-super"
-					]
-				]
-			],
-			[
-				206174.496644296,
-				[
-					[
-						"FleetStageShow",
-						"",
-						""
-					]
-				]
-			],
-			[
-				206178.691275168,
-				[
-					[
-						"Change Character",
-						"dad",
-						"fleetway"
-					]
-				]
-			],
-			[
-				312466.442953021,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				312470.637583893,
-				[
-					[
-						"strum swap1",
-						"",
-						""
-					]
-				]
-			],
-			[
-				312474.832214766,
-				[
-					[
-						"TTStageShow",
-						"",
-						""
+						"gf",
+						"hellron"
 					]
 				]
 			],
@@ -37958,7 +37964,7 @@
 					[
 						"Change Character",
 						"dad",
-						"knux"
+						"hellron"
 					]
 				]
 			],
@@ -37967,38 +37973,8 @@
 				[
 					[
 						"Change Character",
-						"bf",
-						"bf-mirror"
-					]
-				]
-			],
-			[
-				364005.872483222,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				364010.067114095,
-				[
-					[
-						"TTXenophanesShow",
-						"",
-						""
-					]
-				]
-			],
-			[
-				364014.261744967,
-				[
-					[
-						"Change Character",
-						"bf",
-						"bf-perspective-right"
+						"gf",
+						"tails"
 					]
 				]
 			],
@@ -38008,47 +37984,17 @@
 					[
 						"Change Character",
 						"dad",
-						"BEAST"
+						"hellron-2"
 					]
 				]
 			],
 			[
-				364022.651006712,
-				[
-					[
-						"strum swap2",
-						"",
-						""
-					]
-				]
-			],
-			[
-				389781.879194632,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				389786.073825504,
-				[
-					[
-						"TTStageShow",
-						"",
-						""
-					]
-				]
-			],
-			[
-				389790.268456377,
+				364026.845637585,
 				[
 					[
 						"Change Character",
-						"bf",
-						"bf"
+						"gf",
+						"tails"
 					]
 				]
 			],
@@ -38058,27 +38004,17 @@
 					[
 						"Change Character",
 						"dad",
-						"eggdick"
+						"tails"
 					]
 				]
 			],
 			[
-				432454.907718121,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				432458.379940343,
+				389798.657718122,
 				[
 					[
 						"Change Character",
-						"bf",
-						"bflordx"
+						"gf",
+						"hellron"
 					]
 				]
 			],
@@ -38086,9 +38022,9 @@
 				432461.852162565,
 				[
 					[
-						"XstageShow",
-						"",
-						""
+						"Change Character",
+						"gf",
+						"tails"
 					]
 				]
 			],
@@ -38098,27 +38034,7 @@
 					[
 						"Change Character",
 						"dad",
-						"lordx"
-					]
-				]
-			],
-			[
-				453788.241051454,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				453791.713273676,
-				[
-					[
-						"TTStageShow",
-						"",
-						""
+						"himdrip"
 					]
 				]
 			],
@@ -38127,8 +38043,8 @@
 				[
 					[
 						"Change Character",
-						"bf",
-						"bf"
+						"gf",
+						"himdrip"
 					]
 				]
 			],
@@ -38138,27 +38054,7 @@
 					[
 						"Change Character",
 						"dad",
-						"eggdick"
-					]
-				]
-			],
-			[
-				454121.574384787,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				454125.046607009,
-				[
-					[
-						"XstageShow",
-						"",
-						""
+						"tails"
 					]
 				]
 			],
@@ -38167,8 +38063,8 @@
 				[
 					[
 						"Change Character",
-						"bf",
-						"bflordx"
+						"gf",
+						"tails"
 					]
 				]
 			],
@@ -38178,27 +38074,7 @@
 					[
 						"Change Character",
 						"dad",
-						"lordx"
-					]
-				]
-			],
-			[
-				454454.907718121,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				454458.379940343,
-				[
-					[
-						"TTStageShow",
-						"",
-						""
+						"himdrip"
 					]
 				]
 			],
@@ -38207,8 +38083,8 @@
 				[
 					[
 						"Change Character",
-						"bf",
-						"bf"
+						"gf",
+						"himdrip"
 					]
 				]
 			],
@@ -38218,27 +38094,7 @@
 					[
 						"Change Character",
 						"dad",
-						"eggdick"
-					]
-				]
-			],
-			[
-				454788.241051454,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				454791.713273676,
-				[
-					[
-						"XstageShow",
-						"",
-						""
+						"tails"
 					]
 				]
 			],
@@ -38247,8 +38103,8 @@
 				[
 					[
 						"Change Character",
-						"bf",
-						"bflordx"
+						"gf",
+						"tails"
 					]
 				]
 			],
@@ -38258,27 +38114,7 @@
 					[
 						"Change Character",
 						"dad",
-						"lordx"
-					]
-				]
-			],
-			[
-				455121.574384787,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				455125.046607009,
-				[
-					[
-						"TTStageShow",
-						"",
-						""
+						"himdrip"
 					]
 				]
 			],
@@ -38287,8 +38123,8 @@
 				[
 					[
 						"Change Character",
-						"bf",
-						"bf"
+						"gf",
+						"himdrip"
 					]
 				]
 			],
@@ -38298,27 +38134,7 @@
 					[
 						"Change Character",
 						"dad",
-						"eggdick"
-					]
-				]
-			],
-			[
-				455454.907718121,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				455458.379940343,
-				[
-					[
-						"XstageShow",
-						"",
-						""
+						"tails"
 					]
 				]
 			],
@@ -38327,8 +38143,8 @@
 				[
 					[
 						"Change Character",
-						"bf",
-						"bflordx"
+						"gf",
+						"tails"
 					]
 				]
 			],
@@ -38338,27 +38154,7 @@
 					[
 						"Change Character",
 						"dad",
-						"lordx"
-					]
-				]
-			],
-			[
-				455788.241051454,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				455791.713273676,
-				[
-					[
-						"TTStageShow",
-						"",
-						""
+						"himdrip"
 					]
 				]
 			],
@@ -38367,8 +38163,8 @@
 				[
 					[
 						"Change Character",
-						"bf",
-						"bf"
+						"gf",
+						"himdrip"
 					]
 				]
 			],
@@ -38378,27 +38174,7 @@
 					[
 						"Change Character",
 						"dad",
-						"eggdick"
-					]
-				]
-			],
-			[
-				456121.574384787,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				456125.046607009,
-				[
-					[
-						"XstageShow",
-						"",
-						""
+						"tails"
 					]
 				]
 			],
@@ -38407,8 +38183,8 @@
 				[
 					[
 						"Change Character",
-						"bf",
-						"bflordx"
+						"gf",
+						"tails"
 					]
 				]
 			],
@@ -38418,37 +38194,7 @@
 					[
 						"Change Character",
 						"dad",
-						"lordx"
-					]
-				]
-			],
-			[
-				456454.907718121,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				456458.379940343,
-				[
-					[
-						"TTStageShow",
-						"",
-						""
-					]
-				]
-			],
-			[
-				456461.852162565,
-				[
-					[
-						"Change Character",
-						"bf",
-						"bf"
+						"himdrip"
 					]
 				]
 			],
@@ -38458,27 +38204,17 @@
 					[
 						"Change Character",
 						"dad",
-						"eggdick"
+						"tails"
 					]
 				]
 			],
 			[
-				456788.241051454,
+				456465.324384787,
 				[
 					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				456791.713273676,
-				[
-					[
-						"XstageShow",
-						"",
-						""
+						"Change Character",
+						"gf",
+						"himdrip"
 					]
 				]
 			],
@@ -38487,8 +38223,8 @@
 				[
 					[
 						"Change Character",
-						"bf",
-						"bflordx"
+						"gf",
+						"tails"
 					]
 				]
 			],
@@ -38498,27 +38234,7 @@
 					[
 						"Change Character",
 						"dad",
-						"lordx"
-					]
-				]
-			],
-			[
-				457121.574384787,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				457125.046607009,
-				[
-					[
-						"TTStageShow",
-						"",
-						""
+						"himdrip"
 					]
 				]
 			],
@@ -38527,8 +38243,8 @@
 				[
 					[
 						"Change Character",
-						"bf",
-						"bf"
+						"gf",
+						"himdrip"
 					]
 				]
 			],
@@ -38538,27 +38254,7 @@
 					[
 						"Change Character",
 						"dad",
-						"eggdick"
-					]
-				]
-			],
-			[
-				457454.907718121,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				457458.379940343,
-				[
-					[
-						"XstageShow",
-						"",
-						""
+						"tails"
 					]
 				]
 			],
@@ -38567,8 +38263,8 @@
 				[
 					[
 						"Change Character",
-						"bf",
-						"bflordx"
+						"gf",
+						"tails"
 					]
 				]
 			],
@@ -38578,27 +38274,7 @@
 					[
 						"Change Character",
 						"dad",
-						"lordx"
-					]
-				]
-			],
-			[
-				457788.241051454,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				457791.713273676,
-				[
-					[
-						"TTStageShow",
-						"",
-						""
+						"himdrip"
 					]
 				]
 			],
@@ -38607,8 +38283,8 @@
 				[
 					[
 						"Change Character",
-						"bf",
-						"bf"
+						"gf",
+						"himdrip"
 					]
 				]
 			],
@@ -38618,27 +38294,7 @@
 					[
 						"Change Character",
 						"dad",
-						"eggdick"
-					]
-				]
-			],
-			[
-				458121.574384787,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				458125.046607009,
-				[
-					[
-						"XstageShow",
-						"",
-						""
+						"tails"
 					]
 				]
 			],
@@ -38647,8 +38303,8 @@
 				[
 					[
 						"Change Character",
-						"bf",
-						"bflordx"
+						"gf",
+						"tails"
 					]
 				]
 			],
@@ -38658,27 +38314,7 @@
 					[
 						"Change Character",
 						"dad",
-						"lordx"
-					]
-				]
-			],
-			[
-				458454.907718121,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				458458.379940343,
-				[
-					[
-						"TTStageShow",
-						"",
-						""
+						"himdrip"
 					]
 				]
 			],
@@ -38687,8 +38323,8 @@
 				[
 					[
 						"Change Character",
-						"bf",
-						"bf"
+						"gf",
+						"himdrip"
 					]
 				]
 			],
@@ -38698,27 +38334,7 @@
 					[
 						"Change Character",
 						"dad",
-						"eggdick"
-					]
-				]
-			],
-			[
-				458788.241051454,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				458791.713273676,
-				[
-					[
-						"XstageShow",
-						"",
-						""
+						"tails"
 					]
 				]
 			],
@@ -38727,8 +38343,8 @@
 				[
 					[
 						"Change Character",
-						"bf",
-						"bflordx"
+						"gf",
+						"tails"
 					]
 				]
 			],
@@ -38738,37 +38354,7 @@
 					[
 						"Change Character",
 						"dad",
-						"lordx"
-					]
-				]
-			],
-			[
-				464454.90771812,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				464458.379940343,
-				[
-					[
-						"Change Character",
-						"bf",
-						"endless_bf"
-					]
-				]
-			],
-			[
-				464461.852162565,
-				[
-					[
-						"EndlessStageShow",
-						"",
-						""
+						"himdrip"
 					]
 				]
 			],
@@ -38778,37 +38364,17 @@
 					[
 						"Change Character",
 						"dad",
-						"majin"
+						"douyhe"
 					]
 				]
 			],
 			[
-				485788.241051454,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				485791.713273676,
-				[
-					[
-						"DollStageShow",
-						"",
-						""
-					]
-				]
-			],
-			[
-				485795.185495898,
+				464465.324384787,
 				[
 					[
 						"Change Character",
-						"bf",
-						"bfthreed"
+						"gf",
+						"hellron"
 					]
 				]
 			],
@@ -38818,87 +38384,17 @@
 					[
 						"Change Character",
 						"dad",
-						"tailsdoll"
+						"hellron"
 					]
 				]
 			],
 			[
-				486451.435495898,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				486454.90771812,
-				[
-					[
-						"TTStageShow",
-						"",
-						""
-					]
-				]
-			],
-			[
-				486458.379940342,
-				[
-					[
-						"strum swap1",
-						"",
-						""
-					]
-				]
-			],
-			[
-				486461.852162565,
+				485798.65771812,
 				[
 					[
 						"Change Character",
-						"bf",
-						"bf-mirror"
-					]
-				]
-			],
-			[
-				486465.324384787,
-				[
-					[
-						"Change Character",
-						"dad",
-						"knux"
-					]
-				]
-			],
-			[
-				487121.574384787,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				487125.046607009,
-				[
-					[
-						"strum swap2",
-						"",
-						""
-					]
-				]
-			],
-			[
-				487128.518829231,
-				[
-					[
-						"Change Character",
-						"bf",
-						"bf"
+						"gf",
+						"tails"
 					]
 				]
 			],
@@ -38913,42 +38409,12 @@
 				]
 			],
 			[
-				487795.185495898,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				487798.65771812,
+				487131.991051453,
 				[
 					[
 						"Change Character",
-						"dad",
-						"eggdick"
-					]
-				]
-			],
-			[
-				488454.90771812,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				488458.379940342,
-				[
-					[
-						"Change Character",
-						"bf",
-						"bflordx"
+						"gf",
+						"himdrip"
 					]
 				]
 			],
@@ -38956,9 +38422,9 @@
 				488461.852162565,
 				[
 					[
-						"XstageShow",
-						"",
-						""
+						"Change Character",
+						"gf",
+						"hellron"
 					]
 				]
 			],
@@ -38968,37 +38434,7 @@
 					[
 						"Change Character",
 						"dad",
-						"lordx"
-					]
-				]
-			],
-			[
-				489118.102162565,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				489121.574384787,
-				[
-					[
-						"strum swap1",
-						"",
-						""
-					]
-				]
-			],
-			[
-				489125.046607009,
-				[
-					[
-						"TTXenophanesShow",
-						"",
-						""
+						"himdrip"
 					]
 				]
 			],
@@ -39007,8 +38443,8 @@
 				[
 					[
 						"Change Character",
-						"bf",
-						"bf-perspective-left"
+						"gf",
+						"douyhe"
 					]
 				]
 			],
@@ -39018,47 +38454,7 @@
 					[
 						"Change Character",
 						"dad",
-						"BEAST-RIGHT"
-					]
-				]
-			],
-			[
-				489784.768829231,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				489788.241051453,
-				[
-					[
-						"strum swap2",
-						"",
-						""
-					]
-				]
-			],
-			[
-				489791.713273676,
-				[
-					[
-						"EndlessStageShow",
-						"",
-						""
-					]
-				]
-			],
-			[
-				489795.185495898,
-				[
-					[
-						"Change Character",
-						"bf",
-						"endless_bf"
+						"hellron-2"
 					]
 				]
 			],
@@ -39068,37 +38464,17 @@
 					[
 						"Change Character",
 						"dad",
-						"majin"
+						"douyhe"
 					]
 				]
 			],
 			[
-				507121.574384787,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				507125.046607009,
-				[
-					[
-						"TTStageShow",
-						"",
-						""
-					]
-				]
-			],
-			[
-				507128.518829231,
+				489798.65771812,
 				[
 					[
 						"Change Character",
-						"bf",
-						"bf"
+						"gf",
+						"tails"
 					]
 				]
 			],
@@ -39108,27 +38484,17 @@
 					[
 						"Change Character",
 						"dad",
-						"eggdick"
+						"tails"
 					]
 				]
 			],
 			[
-				517788.241051453,
+				507131.991051453,
 				[
 					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				517791.713273675,
-				[
-					[
-						"EndlessStageShow",
-						"",
-						""
+						"Change Character",
+						"gf",
+						"douyhe"
 					]
 				]
 			],
@@ -39137,8 +38503,8 @@
 				[
 					[
 						"Change Character",
-						"bf",
-						"endless_bf"
+						"gf",
+						"hellron-2"
 					]
 				]
 			],
@@ -39148,57 +38514,7 @@
 					[
 						"Change Character",
 						"dad",
-						"majin"
-					]
-				]
-			],
-			[
-				528458.379940342,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				528461.852162564,
-				[
-					[
-						"GFvisible",
-						"",
-						""
-					]
-				]
-			],
-			[
-				528465.324384786,
-				[
-					[
-						"Change Character",
-						"gf",
-						"sonicexe"
-					]
-				]
-			],
-			[
-				539114.629940342,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				539118.102162565,
-				[
-					[
-						"TTXenophanesShow",
-						"",
-						""
+						"douyhe"
 					]
 				]
 			],
@@ -39208,57 +38524,27 @@
 					[
 						"Change Character",
 						"dad",
-						"BEAST"
+						"hellron-2"
 					]
 				]
 			],
 			[
-				539125.046607009,
+				539131.991051453,
 				[
 					[
 						"Change Character",
-						"bf",
-						"bf-perspective-right"
+						"gf",
+						"tails"
 					]
 				]
 			],
 			[
-				539128.518829231,
-				[
-					[
-						"GFinvisible",
-						"",
-						""
-					]
-				]
-			],
-			[
-				561790.84521812,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				561791.713273676,
-				[
-					[
-						"TTStageShow",
-						"",
-						""
-					]
-				]
-			],
-			[
-				561795.185495898,
+				561794.75146812,
 				[
 					[
 						"Change Character",
-						"bf",
-						"bf"
+						"gf",
+						"douyhe"
 					]
 				]
 			],
@@ -39268,37 +38554,17 @@
 					[
 						"Change Character",
 						"dad",
-						"eggdick"
+						"tails"
 					]
 				]
 			],
 			[
-				571389.28271812,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				571392.407718121,
-				[
-					[
-						"EndlessStageShow",
-						"",
-						""
-					]
-				]
-			],
-			[
-				571395.532718121,
+				571395.53271812,
 				[
 					[
 						"Change Character",
-						"bf",
-						"endless_bf"
+						"gf",
+						"tails"
 					]
 				]
 			],
@@ -39308,27 +38574,7 @@
 					[
 						"Change Character",
 						"dad",
-						"majin"
-					]
-				]
-			],
-			[
-				579783.03271812,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				579786.157718121,
-				[
-					[
-						"FleetStageShow",
-						"",
-						""
+						"douyhe"
 					]
 				]
 			],
@@ -39338,27 +38584,7 @@
 					[
 						"Change Character",
 						"gf",
-						"majin"
-					]
-				]
-			],
-			[
-				579792.407718121,
-				[
-					[
-						"GFvisible",
-						"",
-						""
-					]
-				]
-			],
-			[
-				579795.532718121,
-				[
-					[
-						"Change Character",
-						"bf",
-						"bf-super"
+						"douyhe"
 					]
 				]
 			],
@@ -39368,17 +38594,7 @@
 					[
 						"Change Character",
 						"dad",
-						"fleetway"
-					]
-				]
-			],
-			[
-				585795.53271812,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
+						"tails"
 					]
 				]
 			],
@@ -39388,47 +38604,7 @@
 					[
 						"Change Character",
 						"gf",
-						"sonicexe"
-					]
-				]
-			],
-			[
-				590586.15771812,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				590589.28271812,
-				[
-					[
-						"GFinvisible",
-						"",
-						""
-					]
-				]
-			],
-			[
-				590592.40771812,
-				[
-					[
-						"DollStageShow",
-						"",
-						""
-					]
-				]
-			],
-			[
-				590595.53271812,
-				[
-					[
-						"Change Character",
-						"bf",
-						"bfthreed"
+						"hellron-2"
 					]
 				]
 			],
@@ -39438,42 +38614,22 @@
 					[
 						"Change Character",
 						"dad",
-						"tailsdoll"
+						"hellron"
 					]
 				]
 			],
 			[
-				600189.28271812,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				600192.40771812,
-				[
-					[
-						"TTStageShow",
-						"",
-						""
-					]
-				]
-			],
-			[
-				600195.53271812,
+				590598.65771812,
 				[
 					[
 						"Change Character",
-						"bf",
-						"bf"
+						"gf",
+						"tails"
 					]
 				]
 			],
 			[
-				600198.65771812,
+				595398.65771812,
 				[
 					[
 						"Change Character",
@@ -39483,32 +38639,12 @@
 				]
 			],
 			[
-				619389.28271812,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				619392.40771812,
-				[
-					[
-						"strum swap1",
-						"",
-						""
-					]
-				]
-			],
-			[
-				619395.53271812,
+				595398.65771812,
 				[
 					[
 						"Change Character",
-						"bf",
-						"bf-mirror"
+						"gf",
+						"hellron"
 					]
 				]
 			],
@@ -39518,47 +38654,17 @@
 					[
 						"Change Character",
 						"dad",
-						"knux"
+						"hellron"
 					]
 				]
 			],
 			[
-				627786.15771812,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				627789.28271812,
-				[
-					[
-						"strum swap2",
-						"",
-						""
-					]
-				]
-			],
-			[
-				627792.40771812,
-				[
-					[
-						"FleetStageShow",
-						"",
-						""
-					]
-				]
-			],
-			[
-				627795.53271812,
+				619398.65771812,
 				[
 					[
 						"Change Character",
-						"bf",
-						"bf-super"
+						"gf",
+						"tails"
 					]
 				]
 			],
@@ -39568,77 +38674,17 @@
 					[
 						"Change Character",
 						"dad",
-						"fleetway"
+						"tails"
 					]
 				]
 			],
 			[
-				648189.28271812,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				648192.40771812,
-				[
-					[
-						"TTStageShow",
-						"",
-						""
-					]
-				]
-			],
-			[
-				648195.53271812,
+				627798.65771812,
 				[
 					[
 						"Change Character",
-						"bf",
-						"bf"
-					]
-				]
-			],
-			[
-				648198.65771812,
-				[
-					[
-						"",
-						"dad",
-						"eggdick"
-					]
-				]
-			],
-			[
-				648198.65771812,
-				[
-					[
-						"Change Character",
-						"dad",
-						"eggdick"
-					]
-				]
-			],
-			[
-				658089.28271812,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				658092.40771812,
-				[
-					[
-						"XstageShow",
-						"",
-						""
+						"gf",
+						"himdrip"
 					]
 				]
 			],
@@ -39647,8 +38693,8 @@
 				[
 					[
 						"Change Character",
-						"bf",
-						"bflordx"
+						"gf",
+						"tails"
 					]
 				]
 			],
@@ -39658,27 +38704,7 @@
 					[
 						"Change Character",
 						"dad",
-						"lordx"
-					]
-				]
-			],
-			[
-				658389.28271812,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				658392.40771812,
-				[
-					[
-						"TTStageShow",
-						"",
-						""
+						"himdrip"
 					]
 				]
 			],
@@ -39687,8 +38713,8 @@
 				[
 					[
 						"Change Character",
-						"bf",
-						"bf"
+						"gf",
+						"himdrip"
 					]
 				]
 			],
@@ -39698,27 +38724,7 @@
 					[
 						"Change Character",
 						"dad",
-						"eggdick"
-					]
-				]
-			],
-			[
-				658689.28271812,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				658692.40771812,
-				[
-					[
-						"XstageShow",
-						"",
-						""
+						"tails"
 					]
 				]
 			],
@@ -39727,8 +38733,8 @@
 				[
 					[
 						"Change Character",
-						"bf",
-						"bflordx"
+						"gf",
+						"tails"
 					]
 				]
 			],
@@ -39738,27 +38744,7 @@
 					[
 						"Change Character",
 						"dad",
-						"lordx"
-					]
-				]
-			],
-			[
-				658989.28271812,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				658992.40771812,
-				[
-					[
-						"TTStageShow",
-						"",
-						""
+						"himdrip"
 					]
 				]
 			],
@@ -39767,8 +38753,8 @@
 				[
 					[
 						"Change Character",
-						"bf",
-						"bf"
+						"gf",
+						"himdrip"
 					]
 				]
 			],
@@ -39778,27 +38764,7 @@
 					[
 						"Change Character",
 						"dad",
-						"eggdick"
-					]
-				]
-			],
-			[
-				659289.28271812,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				659292.40771812,
-				[
-					[
-						"XstageShow",
-						"",
-						""
+						"tails"
 					]
 				]
 			],
@@ -39807,8 +38773,8 @@
 				[
 					[
 						"Change Character",
-						"bf",
-						"bflordx"
+						"gf",
+						"tails"
 					]
 				]
 			],
@@ -39818,27 +38784,7 @@
 					[
 						"Change Character",
 						"dad",
-						"lordx"
-					]
-				]
-			],
-			[
-				659589.28271812,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				659592.40771812,
-				[
-					[
-						"TTStageShow",
-						"",
-						""
+						"himdrip"
 					]
 				]
 			],
@@ -39847,8 +38793,8 @@
 				[
 					[
 						"Change Character",
-						"bf",
-						"bf"
+						"gf",
+						"himdrip"
 					]
 				]
 			],
@@ -39858,27 +38804,7 @@
 					[
 						"Change Character",
 						"dad",
-						"eggdick"
-					]
-				]
-			],
-			[
-				659889.28271812,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				659892.40771812,
-				[
-					[
-						"XstageShow",
-						"",
-						""
+						"tails"
 					]
 				]
 			],
@@ -39887,8 +38813,8 @@
 				[
 					[
 						"Change Character",
-						"bf",
-						"bflordx"
+						"gf",
+						"tails"
 					]
 				]
 			],
@@ -39898,37 +38824,7 @@
 					[
 						"Change Character",
 						"dad",
-						"lordx"
-					]
-				]
-			],
-			[
-				660189.28271812,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				660192.40771812,
-				[
-					[
-						"TTStageShow",
-						"",
-						""
-					]
-				]
-			],
-			[
-				660195.53271812,
-				[
-					[
-						"Change Character",
-						"bf",
-						"bf"
+						"himdrip"
 					]
 				]
 			],
@@ -39938,27 +38834,17 @@
 					[
 						"Change Character",
 						"dad",
-						"eggdick"
+						"tails"
 					]
 				]
 			],
 			[
-				660489.28271812,
+				660198.65771812,
 				[
 					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				660492.40771812,
-				[
-					[
-						"XstageShow",
-						"",
-						""
+						"Change Character",
+						"gf",
+						"himdrip"
 					]
 				]
 			],
@@ -39967,8 +38853,8 @@
 				[
 					[
 						"Change Character",
-						"bf",
-						"bflordx"
+						"gf",
+						"tails"
 					]
 				]
 			],
@@ -39978,27 +38864,7 @@
 					[
 						"Change Character",
 						"dad",
-						"lordx"
-					]
-				]
-			],
-			[
-				660789.28271812,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				660792.40771812,
-				[
-					[
-						"TTStageShow",
-						"",
-						""
+						"himdrip"
 					]
 				]
 			],
@@ -40007,8 +38873,8 @@
 				[
 					[
 						"Change Character",
-						"bf",
-						"bf"
+						"gf",
+						"himdrip"
 					]
 				]
 			],
@@ -40018,27 +38884,7 @@
 					[
 						"Change Character",
 						"dad",
-						"eggdick"
-					]
-				]
-			],
-			[
-				661089.28271812,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				661092.40771812,
-				[
-					[
-						"XstageShow",
-						"",
-						""
+						"tails"
 					]
 				]
 			],
@@ -40047,8 +38893,8 @@
 				[
 					[
 						"Change Character",
-						"bf",
-						"bflordx"
+						"gf",
+						"tails"
 					]
 				]
 			],
@@ -40058,37 +38904,7 @@
 					[
 						"Change Character",
 						"dad",
-						"lordx"
-					]
-				]
-			],
-			[
-				661389.28271812,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				661392.40771812,
-				[
-					[
-						"TTStageShow",
-						"",
-						""
-					]
-				]
-			],
-			[
-				661395.53271812,
-				[
-					[
-						"Change Character",
-						"bf",
-						"bf"
+						"himdrip"
 					]
 				]
 			],
@@ -40098,27 +38914,17 @@
 					[
 						"Change Character",
 						"dad",
-						"eggdick"
+						"tails"
 					]
 				]
 			],
 			[
-				661689.28271812,
+				661398.65771812,
 				[
 					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				661692.40771812,
-				[
-					[
-						"XstageShow",
-						"",
-						""
+						"Change Character",
+						"gf",
+						"himdrip"
 					]
 				]
 			],
@@ -40127,8 +38933,8 @@
 				[
 					[
 						"Change Character",
-						"bf",
-						"bflordx"
+						"gf",
+						"tails"
 					]
 				]
 			],
@@ -40138,27 +38944,7 @@
 					[
 						"Change Character",
 						"dad",
-						"lordx"
-					]
-				]
-			],
-			[
-				661989.28271812,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				661992.40771812,
-				[
-					[
-						"TTStageShow",
-						"",
-						""
+						"himdrip"
 					]
 				]
 			],
@@ -40167,8 +38953,8 @@
 				[
 					[
 						"Change Character",
-						"bf",
-						"bf"
+						"gf",
+						"himdrip"
 					]
 				]
 			],
@@ -40178,27 +38964,7 @@
 					[
 						"Change Character",
 						"dad",
-						"eggdick"
-					]
-				]
-			],
-			[
-				662289.28271812,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				662292.40771812,
-				[
-					[
-						"XstageShow",
-						"",
-						""
+						"tails"
 					]
 				]
 			],
@@ -40207,8 +38973,8 @@
 				[
 					[
 						"Change Character",
-						"bf",
-						"bflordx"
+						"gf",
+						"tails"
 					]
 				]
 			],
@@ -40218,77 +38984,7 @@
 					[
 						"Change Character",
 						"dad",
-						"lordx"
-					]
-				]
-			],
-			[
-				665292.40771812,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				665295.53271812,
-				[
-					[
-						"Change Character",
-						"gf",
-						"fleetway"
-					]
-				]
-			],
-			[
-				665298.65771812,
-				[
-					[
-						"GFvisible",
-						"",
-						""
-					]
-				]
-			],
-			[
-				667386.15771812,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				667389.28271812,
-				[
-					[
-						"GFinvisible",
-						"",
-						""
-					]
-				]
-			],
-			[
-				667392.40771812,
-				[
-					[
-						"TTStageShow",
-						"",
-						""
-					]
-				]
-			],
-			[
-				667395.53271812,
-				[
-					[
-						"Change Character",
-						"bf",
-						"bf"
+						"himdrip"
 					]
 				]
 			],
@@ -40298,27 +38994,17 @@
 					[
 						"Change Character",
 						"dad",
-						"eggdick"
+						"tails"
 					]
 				]
 			],
 			[
-				667689.28271812,
+				667398.65771812,
 				[
 					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				667692.40771812,
-				[
-					[
-						"XstageShow",
-						"",
-						""
+						"Change Character",
+						"gf",
+						"himdrip"
 					]
 				]
 			],
@@ -40327,8 +39013,8 @@
 				[
 					[
 						"Change Character",
-						"bf",
-						"bflordx"
+						"gf",
+						"tails"
 					]
 				]
 			],
@@ -40338,27 +39024,7 @@
 					[
 						"Change Character",
 						"dad",
-						"lordx"
-					]
-				]
-			],
-			[
-				667989.28271812,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				667992.40771812,
-				[
-					[
-						"TTStageShow",
-						"",
-						""
+						"himdrip"
 					]
 				]
 			],
@@ -40367,8 +39033,8 @@
 				[
 					[
 						"Change Character",
-						"bf",
-						"bf"
+						"gf",
+						"himdrip"
 					]
 				]
 			],
@@ -40378,27 +39044,7 @@
 					[
 						"Change Character",
 						"dad",
-						"eggdick"
-					]
-				]
-			],
-			[
-				668289.28271812,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				668292.40771812,
-				[
-					[
-						"XstageShow",
-						"",
-						""
+						"tails"
 					]
 				]
 			],
@@ -40407,8 +39053,8 @@
 				[
 					[
 						"Change Character",
-						"bf",
-						"bflordx"
+						"gf",
+						"tails"
 					]
 				]
 			],
@@ -40418,37 +39064,7 @@
 					[
 						"Change Character",
 						"dad",
-						"lordx"
-					]
-				]
-			],
-			[
-				668589.28271812,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				668592.40771812,
-				[
-					[
-						"TTStageShow",
-						"",
-						""
-					]
-				]
-			],
-			[
-				668595.53271812,
-				[
-					[
-						"Change Character",
-						"bf",
-						"bf"
+						"himdrip"
 					]
 				]
 			],
@@ -40458,27 +39074,17 @@
 					[
 						"Change Character",
 						"dad",
-						"eggdick"
+						"tails"
 					]
 				]
 			],
 			[
-				668889.28271812,
+				668598.65771812,
 				[
 					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				668892.40771812,
-				[
-					[
-						"XstageShow",
-						"",
-						""
+						"Change Character",
+						"gf",
+						"himdrip"
 					]
 				]
 			],
@@ -40487,8 +39093,8 @@
 				[
 					[
 						"Change Character",
-						"bf",
-						"bflordx"
+						"gf",
+						"tails"
 					]
 				]
 			],
@@ -40498,27 +39104,7 @@
 					[
 						"Change Character",
 						"dad",
-						"lordx"
-					]
-				]
-			],
-			[
-				669189.28271812,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				669192.40771812,
-				[
-					[
-						"TTStageShow",
-						"",
-						""
+						"himdrip"
 					]
 				]
 			],
@@ -40527,8 +39113,8 @@
 				[
 					[
 						"Change Character",
-						"bf",
-						"bf"
+						"gf",
+						"himdrip"
 					]
 				]
 			],
@@ -40538,27 +39124,7 @@
 					[
 						"Change Character",
 						"dad",
-						"eggdick"
-					]
-				]
-			],
-			[
-				669489.28271812,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				669492.40771812,
-				[
-					[
-						"XstageShow",
-						"",
-						""
+						"tails"
 					]
 				]
 			],
@@ -40567,8 +39133,8 @@
 				[
 					[
 						"Change Character",
-						"bf",
-						"bflordx"
+						"gf",
+						"tails"
 					]
 				]
 			],
@@ -40578,37 +39144,7 @@
 					[
 						"Change Character",
 						"dad",
-						"lordx"
-					]
-				]
-			],
-			[
-				669789.28271812,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				669792.40771812,
-				[
-					[
-						"TTStageShow",
-						"",
-						""
-					]
-				]
-			],
-			[
-				669795.53271812,
-				[
-					[
-						"Change Character",
-						"bf",
-						"bf"
+						"himdrip"
 					]
 				]
 			],
@@ -40618,27 +39154,17 @@
 					[
 						"Change Character",
 						"dad",
-						"eggdick"
+						"tails"
 					]
 				]
 			],
 			[
-				670089.28271812,
+				669798.65771812,
 				[
 					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				670092.40771812,
-				[
-					[
-						"XstageShow",
-						"",
-						""
+						"Change Character",
+						"gf",
+						"himdrip"
 					]
 				]
 			],
@@ -40647,8 +39173,8 @@
 				[
 					[
 						"Change Character",
-						"bf",
-						"bflordx"
+						"gf",
+						"tails"
 					]
 				]
 			],
@@ -40658,27 +39184,7 @@
 					[
 						"Change Character",
 						"dad",
-						"lordx"
-					]
-				]
-			],
-			[
-				670389.28271812,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				670392.40771812,
-				[
-					[
-						"TTStageShow",
-						"",
-						""
+						"himdrip"
 					]
 				]
 			],
@@ -40687,8 +39193,8 @@
 				[
 					[
 						"Change Character",
-						"bf",
-						"bf"
+						"gf",
+						"himdrip"
 					]
 				]
 			],
@@ -40698,27 +39204,7 @@
 					[
 						"Change Character",
 						"dad",
-						"eggdick"
-					]
-				]
-			],
-			[
-				670689.28271812,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				670692.40771812,
-				[
-					[
-						"XstageShow",
-						"",
-						""
+						"tails"
 					]
 				]
 			],
@@ -40727,8 +39213,8 @@
 				[
 					[
 						"Change Character",
-						"bf",
-						"bflordx"
+						"gf",
+						"tails"
 					]
 				]
 			],
@@ -40738,37 +39224,7 @@
 					[
 						"Change Character",
 						"dad",
-						"lordx"
-					]
-				]
-			],
-			[
-				670989.28271812,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				670992.40771812,
-				[
-					[
-						"TTStageShow",
-						"",
-						""
-					]
-				]
-			],
-			[
-				670995.53271812,
-				[
-					[
-						"Change Character",
-						"bf",
-						"bf"
+						"himdrip"
 					]
 				]
 			],
@@ -40778,27 +39234,17 @@
 					[
 						"Change Character",
 						"dad",
-						"eggdick"
+						"tails"
 					]
 				]
 			],
 			[
-				671289.28271812,
+				670998.65771812,
 				[
 					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				671292.40771812,
-				[
-					[
-						"XstageShow",
-						"",
-						""
+						"Change Character",
+						"gf",
+						"himdrip"
 					]
 				]
 			],
@@ -40807,8 +39253,8 @@
 				[
 					[
 						"Change Character",
-						"bf",
-						"bflordx"
+						"gf",
+						"tails"
 					]
 				]
 			],
@@ -40818,27 +39264,7 @@
 					[
 						"Change Character",
 						"dad",
-						"lordx"
-					]
-				]
-			],
-			[
-				671589.28271812,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				671592.40771812,
-				[
-					[
-						"TTStageShow",
-						"",
-						""
+						"himdrip"
 					]
 				]
 			],
@@ -40847,8 +39273,8 @@
 				[
 					[
 						"Change Character",
-						"bf",
-						"bf"
+						"gf",
+						"himdrip"
 					]
 				]
 			],
@@ -40858,27 +39284,7 @@
 					[
 						"Change Character",
 						"dad",
-						"eggdick"
-					]
-				]
-			],
-			[
-				671889.28271812,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				671892.40771812,
-				[
-					[
-						"XstageShow",
-						"",
-						""
+						"tails"
 					]
 				]
 			],
@@ -40887,8 +39293,8 @@
 				[
 					[
 						"Change Character",
-						"bf",
-						"bflordx"
+						"gf",
+						"tails"
 					]
 				]
 			],
@@ -40898,57 +39304,17 @@
 					[
 						"Change Character",
 						"dad",
-						"lordx"
+						"himdrip"
 					]
 				]
 			],
 			[
-				672183.03271812,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				672186.15771812,
-				[
-					[
-						"GFvisible",
-						"",
-						""
-					]
-				]
-			],
-			[
-				672189.28271812,
-				[
-					[
-						"FleetStageShow",
-						"",
-						""
-					]
-				]
-			],
-			[
-				672192.40771812,
-				[
-					[
-						"Change Character",
-						"bf",
-						"bf-super"
-					]
-				]
-			],
-			[
-				672195.53271812,
+				672193.97021812,
 				[
 					[
 						"Change Character",
 						"gf",
-						"sonicexe"
+						"hellron-2"
 					]
 				]
 			],
@@ -40958,47 +39324,17 @@
 					[
 						"Change Character",
 						"dad",
-						"fleetway"
+						"tails"
 					]
 				]
 			],
 			[
-				676986.15771812,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				676989.28271812,
-				[
-					[
-						"GFinvisible",
-						"",
-						""
-					]
-				]
-			],
-			[
-				676992.40771812,
-				[
-					[
-						"TTXenophanesShow",
-						"",
-						""
-					]
-				]
-			],
-			[
-				676995.53271812,
+				676998.65771812,
 				[
 					[
 						"Change Character",
-						"bf",
-						"bf-perspective-right"
+						"gf",
+						"tails"
 					]
 				]
 			],
@@ -41008,37 +39344,17 @@
 					[
 						"Change Character",
 						"dad",
-						"BEAST"
+						"hellron-2"
 					]
 				]
 			],
 			[
-				704589.28271812,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				704592.40771812,
-				[
-					[
-						"FleetStageShow",
-						"",
-						""
-					]
-				]
-			],
-			[
-				704595.53271812,
+				704598.65771812,
 				[
 					[
 						"Change Character",
-						"bf",
-						"bf-super"
+						"gf",
+						"hellron-2"
 					]
 				]
 			],
@@ -41048,37 +39364,17 @@
 					[
 						"Change Character",
 						"dad",
-						"fleetway"
+						"tails"
 					]
 				]
 			],
 			[
-				705789.28271812,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				705792.40771812,
-				[
-					[
-						"TTXenophanesShow",
-						"",
-						""
-					]
-				]
-			],
-			[
-				705795.53271812,
+				705798.65771812,
 				[
 					[
 						"Change Character",
-						"bf",
-						"bf-perspective-right"
+						"gf",
+						"tails"
 					]
 				]
 			],
@@ -41088,127 +39384,17 @@
 					[
 						"Change Character",
 						"dad",
-						"BEAST"
+						"hellron-2"
 					]
 				]
 			],
 			[
-				708195.53271812,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				708198.65771812,
-				[
-					[
-						"GFvisible",
-						"",
-						""
-					]
-				]
-			],
-			[
-				708201.78271812,
+				722598.65771812,
 				[
 					[
 						"Change Character",
 						"gf",
-						"fleetwaygf"
-					]
-				]
-			],
-			[
-				709770.53271812,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				709773.65771812,
-				[
-					[
-						"GFinvisible",
-						"",
-						""
-					]
-				]
-			],
-			[
-				711345.53271812,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				711348.65771812,
-				[
-					[
-						"GFvisible",
-						"",
-						""
-					]
-				]
-			],
-			[
-				715395.53271812,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				715398.65771812,
-				[
-					[
-						"GFinvisible",
-						"",
-						""
-					]
-				]
-			],
-			[
-				722589.28271812,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				722592.40771812,
-				[
-					[
-						"FleetStageShow",
-						"",
-						""
-					]
-				]
-			],
-			[
-				722595.53271812,
-				[
-					[
-						"Change Character",
-						"bf",
-						"bf-super"
+						"hellron-2"
 					]
 				]
 			],
@@ -41218,77 +39404,7 @@
 					[
 						"Change Character",
 						"dad",
-						"fleetway"
-					]
-				]
-			],
-			[
-				724992.40771812,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				724995.53271812,
-				[
-					[
-						"Change Character",
-						"gf",
-						"sonicexe"
-					]
-				]
-			],
-			[
-				724998.65771812,
-				[
-					[
-						"GFvisible",
-						"",
-						""
-					]
-				]
-			],
-			[
-				744186.15771812,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				744189.28271812,
-				[
-					[
-						"GFinvisible",
-						"",
-						""
-					]
-				]
-			],
-			[
-				744192.40771812,
-				[
-					[
-						"DollStageShow",
-						"",
-						""
-					]
-				]
-			],
-			[
-				744195.53271812,
-				[
-					[
-						"Change Character",
-						"bf",
-						"bfthreed"
+						"tails"
 					]
 				]
 			],
@@ -41298,37 +39414,17 @@
 					[
 						"Change Character",
 						"dad",
-						"tailsdoll"
+						"hellron"
 					]
 				]
 			],
 			[
-				748989.28271812,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				748992.40771812,
-				[
-					[
-						"TTStageShow",
-						"",
-						""
-					]
-				]
-			],
-			[
-				748995.53271812,
+				744198.65771812,
 				[
 					[
 						"Change Character",
-						"bf",
-						"bf"
+						"gf",
+						"tails"
 					]
 				]
 			],
@@ -41343,82 +39439,22 @@
 				]
 			],
 			[
-				753789.28271812,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				753792.40771812,
-				[
-					[
-						"FleetStageShow",
-						"",
-						""
-					]
-				]
-			],
-			[
-				753795.53271812,
+				748998.65771812,
 				[
 					[
 						"Change Character",
-						"bf",
-						"bf-super"
+						"gf",
+						"hellron"
 					]
 				]
 			],
 			[
-				753798.65771812,
+				758598.65771812,
 				[
 					[
 						"Change Character",
-						"dad",
-						"fleetway"
-					]
-				]
-			],
-			[
-				758586.15771812,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				758589.28271812,
-				[
-					[
-						"strum swap1",
-						"",
-						""
-					]
-				]
-			],
-			[
-				758592.40771812,
-				[
-					[
-						"TTStageShow",
-						"",
-						""
-					]
-				]
-			],
-			[
-				758595.53271812,
-				[
-					[
-						"Change Character",
-						"bf",
-						"bf-mirror"
+						"gf",
+						"douyhe"
 					]
 				]
 			],
@@ -41428,37 +39464,7 @@
 					[
 						"Change Character",
 						"dad",
-						"knux"
-					]
-				]
-			],
-			[
-				760986.15771812,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				760989.28271812,
-				[
-					[
-						"strum swap2",
-						"",
-						""
-					]
-				]
-			],
-			[
-				760992.40771812,
-				[
-					[
-						"EndlessStageShow",
-						"",
-						""
+						"hellron"
 					]
 				]
 			],
@@ -41467,8 +39473,8 @@
 				[
 					[
 						"Change Character",
-						"bf",
-						"endless_bf"
+						"gf",
+						"tails"
 					]
 				]
 			],
@@ -41478,37 +39484,7 @@
 					[
 						"Change Character",
 						"dad",
-						"majin"
-					]
-				]
-			],
-			[
-				763389.28271812,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				763392.40771812,
-				[
-					[
-						"TTStageShow",
-						"",
-						""
-					]
-				]
-			],
-			[
-				763395.53271812,
-				[
-					[
-						"Change Character",
-						"bf",
-						"bf"
+						"douyhe"
 					]
 				]
 			],
@@ -41518,27 +39494,17 @@
 					[
 						"Change Character",
 						"dad",
-						"eggdick"
+						"tails"
 					]
 				]
 			],
 			[
-				768189.28271812,
+				763398.65771812,
 				[
 					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				768192.40771812,
-				[
-					[
-						"EndlessStageShow",
-						"",
-						""
+						"Change Character",
+						"gf",
+						"douyhe"
 					]
 				]
 			],
@@ -41547,8 +39513,8 @@
 				[
 					[
 						"Change Character",
-						"bf",
-						"endless_bf"
+						"gf",
+						"hellron-2"
 					]
 				]
 			],
@@ -41558,47 +39524,7 @@
 					[
 						"Change Character",
 						"dad",
-						"majin"
-					]
-				]
-			],
-			[
-				775392.40771812,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				775395.53271812,
-				[
-					[
-						"GFvisible",
-						"",
-						""
-					]
-				]
-			],
-			[
-				775398.65771812,
-				[
-					[
-						"Change Character",
-						"gf",
-						"sonicexe"
-					]
-				]
-			],
-			[
-				777795.53271812,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
+						"douyhe"
 					]
 				]
 			],
@@ -41608,77 +39534,17 @@
 					[
 						"Change Character",
 						"gf",
-						"lordxgf"
+						"himdrip"
 					]
 				]
 			],
 			[
-				780195.53271812,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				780198.65771812,
-				[
-					[
-						"GFinvisible",
-						"",
-						""
-					]
-				]
-			],
-			[
-				782583.03271812,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				782586.15771812,
-				[
-					[
-						"TTXenophanesShow",
-						"",
-						""
-					]
-				]
-			],
-			[
-				782589.28271812,
-				[
-					[
-						"GFinvisible",
-						"",
-						""
-					]
-				]
-			],
-			[
-				782592.40771812,
+				782598.65771812,
 				[
 					[
 						"Change Character",
 						"gf",
-						"fleetwaygf"
-					]
-				]
-			],
-			[
-				782595.53271812,
-				[
-					[
-						"Change Character",
-						"bf",
-						"bf-perspective-right"
+						"tails"
 					]
 				]
 			],
@@ -41688,117 +39554,27 @@
 					[
 						"Change Character",
 						"dad",
-						"BEAST"
+						"hellron-2"
 					]
 				]
 			],
 			[
-				786195.53271812,
+				842595.53271812,
 				[
 					[
-						"TransitionStatic",
-						"",
-						""
+						"Change Character",
+						"gf",
+						"hellron-2"
 					]
 				]
 			],
 			[
-				786198.65771812,
-				[
-					[
-						"GFvisible",
-						"",
-						""
-					]
-				]
-			],
-			[
-				801198.65771812,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				801201.78271812,
+				842598.65771812,
 				[
 					[
 						"Change Character",
 						"dad",
-						"eggdick"
-					]
-				]
-			],
-			[
-				801204.90771812,
-				[
-					[
-						"TTStageShow",
-						"",
-						""
-					]
-				]
-			],
-			[
-				801208.03271812,
-				[
-					[
-						"Change Character",
-						"bf",
-						"bf"
-					]
-				]
-			],
-			[
-				801211.15771812,
-				[
-					[
-						"GFinvisible",
-						"",
-						""
-					]
-				]
-			],
-			[
-				806589.28271812,
-				[
-					[
-						"TransitionStatic",
-						"",
-						""
-					]
-				]
-			],
-			[
-				806592.40771812,
-				[
-					[
-						"TTXenophanesShow",
-						"",
-						""
-					]
-				]
-			],
-			[
-				806595.53271812,
-				[
-					[
-						"Change Character",
-						"dad",
-						"BEAST"
-					]
-				]
-			],
-			[
-				806598.65771812,
-				[
-					[
-						"Change Character",
-						"bf",
-						"bf-perspective-right"
+						"hellron"
 					]
 				]
 			]

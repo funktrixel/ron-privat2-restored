@@ -7,3 +7,5 @@ Trojan-Virus-b:ron-usb-b:2
 File-Manipulation-b:ron-usb-b:2
 Atelophobia-b:ateloron-b:2
 Factory-Reset-b:factorytankman-b:2
+Bloodshed-b-older:hellron-b:1
+Bloodshed-b-oldest:hellron-b:1

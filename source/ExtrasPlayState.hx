@@ -26,7 +26,7 @@ class ExtrasPlayState extends MusicBeatState
 
 	var selector:FlxText;
 	var curSelected:Int = 0;
-	var curDifficulty:Int = 1;
+	var curDifficulty:Int = 2;
 	var bg:FlxSprite;
 	var intendedColor:Int;
 	var colorTween:FlxTween;
@@ -46,7 +46,7 @@ class ExtrasPlayState extends MusicBeatState
 
 	override function create()
 	{
-		var initSonglist = CoolUtil.coolTextFile(Paths.txt('freeplaySonglistx'));
+		var initSonglist = CoolUtil.coolTextFile(Paths.txt('z_lists/fpExtralist'));
 
 		for (i in 0...initSonglist.length)
 		{
@@ -64,7 +64,8 @@ class ExtrasPlayState extends MusicBeatState
 
 		 #if windows
 		 // Updating Discord Rich Presence
-		 DiscordClient.changePresence("In the Freeplay Menu", null);
+		DiscordClient.currentIcon = "normal";
+		 DiscordClient.changePresence("In the Freeplay Menu (Extras)", null);
 		 #end
 
 		var isDebug:Bool = false;
@@ -301,17 +302,17 @@ class ExtrasPlayState extends MusicBeatState
 
 		if (songs[curSelected].songName.contains("-b"))
 		{
-			if (curDifficulty < 0)
+			if (curDifficulty < 2)
 				curDifficulty = 2;
 			if (curDifficulty > 2)
-				curDifficulty = 0;
+				curDifficulty = 2;
 		}
 		else
 		{
-			if (curDifficulty < 0)
-				curDifficulty = 3;
-			if (curDifficulty > 3)
-				curDifficulty = 0;
+			if (curDifficulty < 2)
+				curDifficulty = 2;
+			if (curDifficulty > 2)
+				curDifficulty = 2;
 		}
 
 		// adjusting the highscore song name to be compatible (changeDiff)
@@ -362,10 +363,10 @@ class ExtrasPlayState extends MusicBeatState
 		if (curSelected >= songs.length)
 			curSelected = 0;
 		
-		if (curDifficulty < 0)
-			curDifficulty = 3;
-		if (curDifficulty > 3)
-			curDifficulty = 0;
+		if (curDifficulty < 2)
+			curDifficulty = 2;
+		if (curDifficulty > 2)
+			curDifficulty = 2;
 		
 		FlxG.camera.antialiasing = true;
 
@@ -417,25 +418,21 @@ class ExtrasPlayState extends MusicBeatState
 		
 		diffText.text = CoolUtil.difficultyFromInt(curDifficulty).toUpperCase();
 
-		var clr = 0xFFE51F89;
+		var clr = 0xFF000099;
 		switch (curSelected)
 		{
 			case 1:
 				clr = FlxColor.GRAY;
 			case 2:
-				clr = FlxColor.LIME;
+				clr = FlxColor.BLACK;
 			case 3:
-				clr = FlxColor.RED;
+				clr = FlxColor.GRAY;
 			case 4:
-				clr = FlxColor.BLACK;
-			case 5:
-				clr = FlxColor.YELLOW;
-			case 6:
 				clr = FlxColor.BLUE;
-			case 7:
+			case 5:
 				clr = FlxColor.RED;
-			case 8:
-				clr = FlxColor.BLACK;
+			case 5:
+				clr = FlxColor.PURPLE;
 		}
 		
 		if(clr != intendedColor) {

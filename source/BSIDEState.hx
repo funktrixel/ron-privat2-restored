@@ -22,15 +22,14 @@ using StringTools;
 
 class BSIDEState extends MusicBeatState
 {
-
 	var scoreText:FlxText;
 
 	var weekData:Array<Dynamic> = [
 		['Tutorial-b'],
 		['Ron-b', 'Wasted-b', 'Ayo-b', 'Bloodshed-b'],
-		['Trojan-Virus-b', 'File-Manipulation-b', 'Atelophobia-b', 'Factory-Reset-b']
+		['Trojan-Virus-b', 'File-Manipulation-b', 'Factory-Reset-b']
 	];
-	var curDifficulty:Int = 1;
+	var curDifficulty:Int = 4;
 
 	public static var weekUnlocked:Array<Bool> = [true, true, true, true, true, true, true];
 
@@ -68,7 +67,8 @@ class BSIDEState extends MusicBeatState
 	{
 		#if windows
 		// Updating Discord Rich Presence
-		DiscordClient.changePresence("In the Story Mode Menu", null);
+		DiscordClient.currentIcon = "normal";
+		DiscordClient.changePresence("In the Story Mode Menu (Bsides)", null);
 		#end
 
 		transIn = FlxTransitionableState.defaultTransIn;
@@ -160,7 +160,7 @@ class BSIDEState extends MusicBeatState
 		sprDifficulty.frames = ui_tex;
 		sprDifficulty.animation.addByPrefix('easy', 'EASY');
 		sprDifficulty.animation.addByPrefix('normal', 'NORMAL');
-		sprDifficulty.animation.addByPrefix('hard', 'HARD');
+		sprDifficulty.animation.addByPrefix('flip', 'HARD');
 		sprDifficulty.animation.play('easy');
 		changeDifficulty();
 
@@ -349,23 +349,17 @@ class BSIDEState extends MusicBeatState
 	{
 		curDifficulty += change;
 
-		if (curDifficulty < 0)
-			curDifficulty = 2;
-		if (curDifficulty > 2)
-			curDifficulty = 0;
+		if (curDifficulty < 4)
+			curDifficulty = 4;
+		if (curDifficulty > 4)
+			curDifficulty = 4;
 
 		sprDifficulty.offset.x = 0;
 
 		switch (curDifficulty)
 		{
-			case 0:
-				sprDifficulty.animation.play('easy');
-				sprDifficulty.offset.x = 20;
-			case 1:
-				sprDifficulty.animation.play('normal');
-				sprDifficulty.offset.x = 70;
-			case 2:
-				sprDifficulty.animation.play('hard');
+			case 4:
+				sprDifficulty.animation.play('flip');
 				sprDifficulty.offset.x = 20;
 		}
 
