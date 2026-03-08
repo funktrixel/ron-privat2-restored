@@ -179,8 +179,15 @@ class TitleState extends MusicBeatState
 		Conductor.changeBPM(102);
 		persistentUpdate = true;
 
-
-		var bg:FlxSprite = new FlxSprite().loadGraphic(Paths.image('bg'));
+		var bg:FlxSprite;
+		if ((Date.now().getHours() < 6) || (Date.now().getHours() > 20))
+		{
+			bg = new FlxSprite().loadGraphic(Paths.image('bg-old'));
+		}
+		else
+		{
+			bg = new FlxSprite().loadGraphic(Paths.image('bg'));
+		}
 		bg.setGraphicSize(Std.int(bg.width * 4));
 		bg.setGraphicSize(Std.int(bg.height * 4));
 		bg.antialiasing = true;
